@@ -1,0 +1,84 @@
+
+html{
+  scroll-behavior: smooth;
+}
+.toolbar-title{
+  cursor: pointer;
+}
+.v-container{
+  width: 100% !important;
+}
+footer {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+.v-container {
+  background-color: #333;
+  color: #fff;
+}
+
+.triangle-simple {
+  height: 50px;
+  width: 50px;
+  margin-top: 10%;
+  border-left: 50px solid #28a745;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(90deg);
+}
+
+/*breadcrumbs*/
+.breadcrumb-link {
+  color: white;
+  text-decoration: none;
+}
+
+.active-breadcrumb {
+  color: #28a745 !important; /* Green color for the active breadcrumb */
+}
+
+.footer-style{
+  padding-left: 20px;
+  margin-top: 20px;
+  color: gray;
+  font: InterRegular !important;
+}
+@media (min-width: 960px) {
+  .v-container {
+      max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+ .display-1 ,.display-2  {
+  margin-left: 5% !important;
+  font-size:40px !important ;
+ }
+ .display-3 {
+  margin-left: 5% !important;
+  font-size:20px !important;
+ }
+ .font-Medium{
+  font-size:20px !important;
+ }
+}
+.v-col{
+  padding: 0px !important;
+}
+
+
+/* homepage */
+.header2{
+  font: InterSemiBold !important;
+  font-size: 32px;
+  padding: 20px;
+}
+
+/* green line */
+
+.green-divider {
+  border-top: 4px solid green !important;
+  margin-bottom: 30px;
+  
+  /* Adjust the margin as needed */
+}
