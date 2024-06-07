@@ -233,7 +233,7 @@ export default {
   padding-left: 15px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .row-reverse {
     display: flex;
     flex-wrap: wrap;
