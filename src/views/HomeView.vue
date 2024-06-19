@@ -209,9 +209,9 @@ export default {
   margin: 30px !important;
 }
 .font-Medium {
-  font: InterMedium !important;
+  font-style:InterMedium !important;
   font-size: 26px;
-  padding-left: 200px;
+
 }
 
 .left-data {

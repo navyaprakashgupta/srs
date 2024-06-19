@@ -51,11 +51,17 @@
       </v-col>
     </v-row>
     <v-row>
-      <h2 class="greenBar">OUR VISION</h2>
+      <div class="greenBar">
+        <h2 class="greenBarText">OUR VISION</h2>
+      </div>
       <p>“To create safe, reliable, efficient and sustainable systems for your tomorrow through innovation”</p>
-      <h2 class="greenBar">OUR MISSION</h2>
+      <div class="greenBar">
+        <h2 class="greenBarText">OUR MISSION</h2>
+      </div>
       <p>“To become a global leader in complex Cyber-Physical Systems for railways by building the most compelling technology company of the 21st century. We use our experience, know-how and ground-breaking R&D to develop highly innovative products/solutions to move closer to our customers and in turn to the people.”</p>
-      <h2 class="greenBar ">OUR CORE VALUES</h2>
+      <div class="greenBar">
+        <h2 class="greenBarText">OUR CORE VALUES</h2>
+      </div>
       <ul class="bullets">
         <li>Creativity & Innovation</li>
         <li>Persistent improvement</li>
@@ -64,7 +70,9 @@
         <li>Social responsibility</li>
         <li>Environmental sustainability</li>
       </ul>  
-      <h2 class="greenBar text-center">OUR ETHICS</h2>
+      <div class="greenBar">
+        <h2 class="greenBarText">OUR ETHICS</h2>
+      </div>
       <p>Everybody is somebody’s customer. Therefore, in all our relationships, we will strive for:</p>
       <br>
       <br>
@@ -110,10 +118,14 @@
     font-size: 20px;
     
   }
-
+  .greenBarText{
+    font-size: 20px;
+    margin-top: 1% ;
+  }
   .greenBar{
-    height: 50px;
-    background-color: rgb(39, 163, 39);
+    margin: 2% !important;;
+    height: 60px;
+    background-color:#00d084;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -123,11 +135,15 @@
   display: block;
   text-align: center;
   }
-
+  
   .bullets{
     padding-left: 30px;
+    margin: 2%;
     font: InterRegular;
     font-size: 20px;
+  }
+  p{
+    margin: 2%;
   }
   li{
     padding: 6px;

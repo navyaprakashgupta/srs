@@ -3,7 +3,12 @@
     <v-app-bar app dark color="#2f2f2f" class="navbar-with-green-bar">
       <!-- Mobile Menu Icon -->
       <v-app-bar-nav-icon @click="drawer = !drawer" class="d-md-none"></v-app-bar-nav-icon>
-      <v-toolbar-title  @click="navigateTo('')" class="toolbar-title">SMART RAILWAY SIDING</v-toolbar-title>
+      <img src="/images/logo.png" alt="" width="100"  style="object-fit: contain;margin-left: 1%;">
+      <v-toolbar-title  @click="navigateTo('')" class="toolbar-title">
+    
+        <h5 >SMART RAILWAY SIDING</h5>
+       </v-toolbar-title>
+   
       <!-- Desktop Menu Items -->
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn text @click="navigateTo('features')" :class="{ 'active-button-text': isActiveRoute('features') }">FEATURES</v-btn>
