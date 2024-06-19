@@ -192,6 +192,12 @@ export default {
   font-size: 70px;
   margin-left: 90px;
 }
+.text-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 .display-3 {
   font: InterLight !important;
@@ -206,12 +212,6 @@ export default {
   font: InterMedium !important;
   font-size: 26px;
   padding-left: 200px;
-}
-
-.text-center {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .left-data {
@@ -231,35 +231,6 @@ export default {
   font: InterRegular !important;
   font-size: 28px;
   padding-left: 15px;
-}
-
-@media (max-width: 768px) {
-  .row-reverse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
-
-  .header2 {
-    font-size: 20px;
-    padding: 0px;
-    padding-bottom: 20px;
-    font: InterSemiBold !important;
-  }
-
-  .font-Medium {
-    font: InterMedium !important;
-    font-size: 20px;
-    padding-left: 0px;
-  }
-  .left-data {
-    float: left;
-  }
-  .font-regular {
-    font-size: 20px;
-    font: InterRegular !important;
-    padding-left: 0px;
-  }
 }
 hr.solid {
   border-top: 3px solid darkgreen;

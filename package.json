@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@jambonn/vue-carousel": "^0.1.1",
+    "swiper": "^11.1.4",
     "vue": "^3.4.21",
+    "vue-carousel-3d": "^1.0.1",
     "vue-router": "^4.3.0",
     "vuetify": "^3.6.7"
   },

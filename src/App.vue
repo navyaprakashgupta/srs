@@ -52,4 +52,3 @@ export default {
   z-index: 999 !important;
 }
 </style>
-

@@ -10,12 +10,15 @@
       </v-row>
       <v-row>
         <v-col>
+          <form >
           <p class="Contact-Header">Feedback Form</p>
           <v-text-field label="Name" outlined></v-text-field>
           <v-text-field label="Email" outlined></v-text-field>
           <v-text-field label="Phone" outlined></v-text-field>
           <v-textarea label="Message" outlined></v-textarea>
-          <v-btn color="primary">Submit</v-btn>
+          <v-btn color="primary" class="Submit-button">Submit</v-btn>
+          <br>
+        </form>
         </v-col>
       </v-row>
       <v-row>
@@ -34,7 +37,7 @@
           </v-card>
         </v-col>
       </v-row>
-    <v-divider class="green-divider"></v-divider>   
+      <hr class="solid"> 
     <footer class="footer-style">
           © Copyright 2022, Lab to Market Innovations Private Limited. All Rights Reserved
     </footer>
@@ -111,6 +114,13 @@ h3 {
   .Contact-Header{
     padding: 10px;
     font-size: 25px;
+  }
+  
+ 
+  .Submit-button{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
   }
 
   </style>

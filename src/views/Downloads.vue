@@ -5,7 +5,29 @@
    <v-row>
      <v-col>
        <h1>DOWNLOADS</h1>
-       <v-divider></v-divider>  
+       <hr class="solid" />
+       <v-row>
+        <v-col cols="12" md="4">
+          <button @click="downloadFile(file.url)">
+        <img src="/images/download.jpg" alt="Download Icon" class="download-img"/>
+      </button>
+
+          <p class="download-text">BROCHURE</p>
+        </v-col>
+        <v-col cols="12" md="4">
+          <button @click="downloadFile(file.url)">
+        <img src="/images/download.jpg" alt="Download Icon" class="download-img"/>
+      </button>
+          <p class="download-text">PPT</p>
+        </v-col>
+        <v-col cols="12" md="4">
+          <button @click="downloadFile(file.url)">
+        <img src="/images/download.jpg" alt="Download Icon" class="download-img"/>
+      </button>
+          <p class="download-text" >LEAFLET</p>
+        </v-col>
+       </v-row>
+       <hr class="solid" />
        <footer class="footer-style">
          © Copyright 2022, Lab to Market Innovations Private Limited. All Rights Reserved
        </footer>
@@ -33,4 +55,17 @@
    },
  };
  </script>
+
+ <style>
+  .download-img{
+    padding-left: 80px;
+  }
+
+ .download-text{
+  text-align: center;
+  padding: 20px;
+  font: Inter;
+  font-size: 20px;
+ }
+</style>
  
