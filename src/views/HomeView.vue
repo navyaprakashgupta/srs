@@ -177,6 +177,7 @@ export default {
 }
 
 .card-header {
+  margin: 2%;
   background-color: #c4c4c4;
 }
 

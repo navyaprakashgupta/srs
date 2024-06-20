@@ -3,7 +3,7 @@
      <v-container>
         <Breadcrumbs :items="breadcrumbs" />
         <h1>ABOUT L2M</h1>
-        <v-divider class="green-divider"></v-divider>  
+        <hr class="solid" /> 
         <p>
           L2M Rail is seed funded and incubated by the prestigious Indian Institute of Science (IISc), Bangalore. Our access to the intellectual & infrastructural resources and Labs of IISc has helped us undertake pathbreaking, high-value research without investing in such facilities. We are also recognized under the Start-up India initiative of the Department for Promotion of Industry and Internal Trade (DPIIT), Govt. of India. We are the winners of Elevate 2018 and received grants from the Government of Karnataka for our R&D activities. We have also received CSR funds from Telecommunications Consultants India Limited (TCIL), a Government of India Enterprise. We recently received the ‘Rail Business start-up of the Year’ award announced by Urban Transport News in association with the Indian Association of Urban Rail and Mobility Industry (IAURMI).
         </p>
@@ -87,7 +87,7 @@
         <li><b>Leadership</b> – Everyone is a leader, and every leader is a servant. Leaders take responsibility where they are competent and defer to others where the others are competent.</li>
       </ul>
     </v-row>
-    <v-divider class="green-divider"></v-divider>
+    <hr class="solid" />
     <footer class="footer-style">
           © Copyright 2022, Lab to Market Innovations Private Limited. All Rights Reserved
     </footer>

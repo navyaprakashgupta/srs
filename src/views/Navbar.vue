@@ -23,6 +23,9 @@
     <v-navigation-drawer v-model="drawer" app temporary class="d-md-none">
       <v-list>
         <v-list-item @click="drawer = false">
+          <v-btn text block @click="navigateTo('')">HOME</v-btn>
+        </v-list-item>
+        <v-list-item @click="drawer = false">
           <v-btn text block @click="navigateTo('features')">FEATURES</v-btn>
         </v-list-item>
         <v-list-item @click="drawer = false">

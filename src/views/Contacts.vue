@@ -2,12 +2,8 @@
 <template>
     <v-container>
       <Breadcrumbs :items="breadcrumbs" />
-      <v-row>
-        <v-col>
           <h1>Contact Us</h1>
-          <v-divider class="green-divider"></v-divider>  
-        </v-col>
-      </v-row>
+          <hr class="solid" />
       <v-row>
         <v-col>
           <form >
@@ -37,7 +33,7 @@
           </v-card>
         </v-col>
       </v-row>
-      <hr class="solid"> 
+      <hr class="solid" />
     <footer class="footer-style">
           © Copyright 2022, Lab to Market Innovations Private Limited. All Rights Reserved
     </footer>
