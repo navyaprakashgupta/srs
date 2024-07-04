@@ -3,9 +3,10 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-img :height="650" cover contain src="images/home.jpg">
+          <v-img :height="650" cover contain src="images/home.jpg" >
+           <div class="overlay"></div>
             <v-row class="fill-height" justify="center">
-              <v-col cols="12">
+              <v-col cols="12" class="content">
                 <h1 class="display-1">REVOLUTIONIZE YOUR</h1>
                 <h1 class="display-2">RAILWAY OPERATIONS</h1>
                 <h2 class="display-3">ONE SOLUTION, INFINITE POSSIBILITIES</h2>
@@ -236,5 +237,23 @@ export default {
 hr.solid {
   border-top: 3px solid darkgreen;
   margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+  
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  
 }
 </style>
