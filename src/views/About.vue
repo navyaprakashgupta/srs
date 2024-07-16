@@ -148,5 +148,9 @@
   li{
     padding: 6px;
   }
-
+  .responsive-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important ;
+}
   </style>

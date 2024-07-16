@@ -8,10 +8,10 @@
       <v-col>
         <form action="" class="formFields" @submit.prevent="sendEmail">
           <p class="Contact-Header">Feedback Form</p>
-          <v-text-field label="name" v-model="name" outlined></v-text-field>
-          <v-text-field label="email" v-model="email" outlined></v-text-field>
-          <v-text-field label="phone" v-model="phone" outlined></v-text-field>
-          <v-textarea label="message" v-model="message" outlined></v-textarea>
+          <v-text-field label="Name" v-model="name" outlined></v-text-field>
+          <v-text-field label="Email" v-model="email" outlined></v-text-field>
+          <v-text-field label="Phone" v-model="phone" outlined></v-text-field>
+          <v-textarea label="Message" v-model="message" outlined></v-textarea>
           <v-btn
             color="primary"
             class="Submit-button"
@@ -95,10 +95,10 @@ export default {
         phone: this.phone,
         message: this.message,
         createdAt: new Date(),
-        to: "navyaprakashgupta@gmail.com",
+        to: "bd4@l2mrail.com",
         message: {
           subject: "L2M-SRS!",
-          text: "Name:"+this.name+"\n"+"email:"+this.message+"\n"+"Phone:"+this.phone+"\n"+"Message:"+this.message+".",
+          text: "Name: "+this.name+"\n"+"Email: "+this.email+"\n"+"Phone: "+this.phone+"\n"+"Message: "+this.message+".",
           html: "This is the <code>HTML</code> section of the email body.",
         }
       };
@@ -111,6 +111,7 @@ export default {
         });
         this.name = "";
           this.email = "";
+          this.phone = "";
           this.message = "";
     },
   },

@@ -109,6 +109,17 @@ hr.solid {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
+  .mainFrame{
+    height: 250px !important;
+    width: 300px !important;
+    object-fit: contain !important;
+  }
+  .galleryimage{
+    height: 70px !important;
+    width: 70px !important;
+    object-fit: cover !important;
+    border: none !important;
+  }
   .greenBarText{
     margin-top: 3% !important;
   }
@@ -119,9 +130,9 @@ hr.solid {
     text-align: left !important;
     margin-left: 2% !important;
   }
-  .swiper-slide img {
+  /* .swiper-slide img {
     width: 90% !important;
-  }
+  } */
   .description{
     width: 90% !important;
     padding: 5px !important;
@@ -161,11 +172,11 @@ hr.solid {
   /* Adjust the margin as needed */
 }
 
-.responsive-img {
+/* .responsive-img {
   width: 100%;
   height: 100%;
   object-fit: contain !important ;
-}
+} */
 
 .swiper {
   width: 100%;
@@ -215,22 +226,23 @@ body {
 }
 
 .swiper-slide img {
-  object-fit: cover;
+  /* object-fit: cover;
   width: 100%;
-  height: 90%;
+  height: 90%; */
   border: 2px solid green;
   border-radius: 15px;
 }
 .galleryimage{
   object-fit: cover;
-  width: 50% !important;
-  height: 60%;
-  border: 4px solid grey !important;
+  width: 150px ;
+  height: 150px ;
+  border: 4px solid grey ;
   border-radius: 0px !important;
 }
 .mainFrame{
-
- 
+    width: 700px ;
+    height: 900px ;
+    object-fit: contain !important;
 }
 .swiper {
   width: 100%;

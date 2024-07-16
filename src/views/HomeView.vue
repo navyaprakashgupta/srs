@@ -42,10 +42,11 @@
               operations and
             </p>
             <p class="font-Medium">maximize productivity.</p>
+            <br>
+            <v-btn color="green" class="text-center" @click="learnMore('features')">LEARN MORE</v-btn>
           </div>
-          <v-btn color="green" class="text-center" @click="learnMore"
-            >LEARN MORE</v-btn
-          >
+          
+          
         </v-col>
       </v-row>
     </v-container>
@@ -78,7 +79,7 @@
         </v-col>
         <v-col cols="12" md="6">
           <v-img
-            src="images/pic.jpg"
+            src="images/home1.jpeg"
             alt="Information Image"
             class="responsive-img"
           ></v-img>
@@ -120,7 +121,7 @@
         </v-col>
         <v-col cols="12" md="6">
           <img
-            src="/images/picc.jpg"
+            src="/images/home3.jpg"
             alt="Information Image"
             class="responsive-img"
           />
@@ -129,7 +130,7 @@
       <v-row class="row-reverse">
         <v-col cols="12" md="6">
           <img
-            src="/images/picd.jpg"
+            src="/images/home4.jpg"
             alt="Information Image"
             class="responsive-img"
           />
@@ -160,8 +161,9 @@ export default {
     };
   },
   methods: {
-    learnMore() {
+    learnMore(path) {
       // Handle learn more action
+      this.$router.push("/" + path);
     },
     goto(refName) {
       var element = this.$refs[refName];
@@ -174,12 +176,18 @@ export default {
 <style scoped>
 .responsive-img {
   width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: contain;
 }
 
+@media (max-width: 768px) {
+  .responsive-img{
+    height: 200px;
+  }
+}
 .card-header {
   margin: 2%;
-  background-color: #c4c4c4;
+  background-color: rgb(82, 90, 91);
 }
 
 .display-1 {
