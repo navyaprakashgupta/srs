@@ -10,16 +10,16 @@
     <v-row >
       <v-col cols="12" md="5">
           <v-img
-            src="images/aboutPica.jpg"
+            src="images/about.JPG"
             alt="Information Image"
             class="responsive-img"
           ></v-img>
         </v-col>
         <v-col cols="12" md="7">
-      <p>Founded in 2016 by Prof. S.K. Sinha and Mr G. S. Rao and a small group of highly committed scientists, Lab to Market Innovations Pvt. Ltd. (L2M Rail) were born with a vision to ‘create opportunities for wealth generation from academic research and development’. We have quickly outgrown that vision, and today we are a robust engineering and R&D company working on Industry 4.0 technologies based on complex Cyber-Physical Systems (CPS)—the revolutionary combination of Internet of Things (IoT), Artificial Intelligence (AI), Machine Learning, Big Data & Analytics, Cloud Computing, 5G and physical objects. We boast of ourselves as leaders in Fibre Brag Grating (FBG) sensing technology.</p>
-      <br>
-      <p>L2M Rail is seed funded and incubated by the prestigious Indian Institute of Science (IISc), Bangalore. Our access to the intellectual & infrastructural resources and Labs of IISc has helped us undertake pathbreaking, high-value research without investing in such facilities. We are also recognized under the  Start-up India initiative of the Department for Promotion of Industry and Internal Trade (DPIIT), Govt. of India. We are the winners of Elevate 2018 and received grants from the Government of Karnataka for our R&D activities. We have also received CSR funds from Telecommunications Consultants India Limited (TCIL), a Government of India Enterprise. We recently received the ‘Rail Business start-up of the Year’ award announced by Urban Transport News in association with the Indian Association of Urban Rail and Mobility Industry (IAURMI).</p>
+      <p>Founded in 2016 by Prof. S.K. Sinha and Mr G. S. Rao and a small group of highly committed scientists, Lab to Market Innovations Pvt. Ltd. (L2M Rail) were born with a vision to ‘create opportunities for wealth generation from academic research and development’. We have quickly outgrown that vision, and today we are a robust engineering and R&D company working on Industry 4.0 technologies based on complex Cyber-Physical Systems (CPS)—the revolutionary combination of Internet of Things (IoT), Artificial Intelligence (AI), Machine Learning, Big Data & Analytics, Cloud Computing, 5G and physical objects. We boast of ourselves as leaders in Fibre Brag Grating (FBG) sensing technology. L2M Rail is seed funded and incubated by the prestigious Indian Institute of Science (IISc), Bangalore. Our access to the intellectual & infrastructural resources and Labs of IISc has helped us undertake pathbreaking, high-value research without investing in such facilities. We are also recognized under the  Start-up India initiative of the Department for Promotion of Industry and Internal Trade (DPIIT), Govt. of India.</p>
     </v-col>
+    </v-row>
+    <v-row><p> We are the winners of Elevate 2018 and received grants from the Government of Karnataka for our R&D activities. We have also received CSR funds from Telecommunications Consultants India Limited (TCIL), a Government of India Enterprise. We recently received the ‘Rail Business start-up of the Year’ award announced by Urban Transport News in association with the Indian Association of Urban Rail and Mobility Industry (IAURMI).</p>
     </v-row>
     <v-row class="row-reverse">
       <v-col cols="12" md="8">

@@ -43,7 +43,7 @@
             </p>
             <p class="font-Medium">maximize productivity.</p>
             <br>
-            <v-btn color="green" class="text-center" @click="learnMore('features')">LEARN MORE</v-btn>
+            <v-btn color="green" class="text-center" @click="learnMore('about')">LEARN MORE</v-btn>
           </div>
           
           
@@ -79,16 +79,18 @@
         </v-col>
         <v-col cols="12" md="6">
           <v-img
-            src="images/home1.jpeg"
+            src="images/home12.jpeg"
             alt="Information Image"
             class="responsive-img"
           ></v-img>
         </v-col>
       </v-row>
+      <br>
+      <br>
       <v-row class="row-reverse">
         <v-col cols="12" md="6">
           <v-img
-            src="images/pic2.jpg"
+            src="images/home22.jpeg"
             alt="Information Image"
             class="responsive-img"
           ></v-img>
@@ -107,6 +109,8 @@
           </div>
         </v-col>
       </v-row>
+      <br>
+      <br>
       <v-row>
         <v-col cols="12" md="6">
           <div class="right-data">
@@ -121,16 +125,18 @@
         </v-col>
         <v-col cols="12" md="6">
           <img
-            src="/images/home3.jpg"
+            src="/images/home32.jpeg"
             alt="Information Image"
             class="responsive-img"
           />
         </v-col>
       </v-row>
+      <br>
+      <br>
       <v-row class="row-reverse">
         <v-col cols="12" md="6">
           <img
-            src="/images/home4.jpg"
+            src="/images/home42.jpeg"
             alt="Information Image"
             class="responsive-img"
           />
@@ -144,6 +150,7 @@
           </div>
         </v-col>
       </v-row>
+      <br>
       <hr class="solid" />
       <footer class="footer-style">
         © Copyright 2022, Lab to Market Innovations Private Limited. All Rights

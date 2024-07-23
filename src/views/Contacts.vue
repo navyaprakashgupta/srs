@@ -16,14 +16,13 @@
             color="primary"
             class="Submit-button"
             @click="sendEmail"
-            >Submit</v-btn
-          >
+            >Submit</v-btn>
           <br />
         </form>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12" md="4" v-for="contact in contacts" :key="contact.name">
+      <v-col cols="12" md="6" v-for="contact in contacts" :key="contact.name">
         <v-card class="mx-auto" max-width="300" outlined>
           <div class="contact-card">
             <v-avatar size="120" class="mx-auto mb-4 green-outline">
@@ -38,6 +37,8 @@
         </v-card>
       </v-col>
     </v-row>
+    <br>
+    <br>
     <hr class="solid" />
     <footer class="footer-style">
       © Copyright 2022, Lab to Market Innovations Private Limited. All Rights
@@ -73,17 +74,12 @@ export default {
           image: "/images/homepage.jpg",
         },
         {
-          name: "Vijayashree",
-          phone: "9880993413",
-          email: "Bd2@L2mrail.Com",
+          name: "Karamjit Kaur",
+          phone: "8284882180",
+          email: "cbdo@l2mrail.com",
           image: "/images/contact2.jpg",
         },
-        {
-          name: "Yeshaswi",
-          phone: "9154615184",
-          email: "Bd1@L2mrail.Com",
-          image: "/images/contact3.jpg",
-        },
+        
       ],
     };
   },

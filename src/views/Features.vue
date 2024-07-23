@@ -111,8 +111,10 @@
           scheduling, reduce delays, and improve overall yard productivity.</p></div>
       </swiper-slide>
     </swiper>
-    
-    <footer class="footer-style" style="margin-top:10% !important">
+    <br>
+    <br>
+    <hr class="solid" />
+    <footer class="footer-style" >
       © Copyright 2022, Lab to Market Innovations Private Limited. All Rights
       Reserved
     </footer>
