@@ -3,7 +3,7 @@
     <v-app-bar app dark color="#2f2f2f" class="navbar-with-green-bar">
       <!-- Mobile Menu Icon -->
       <v-app-bar-nav-icon @click="drawer = !drawer" class="d-md-none"></v-app-bar-nav-icon>
-      <img src="/images/logo.png" alt="" width="100"  style="object-fit: contain;margin-left: 1%;">
+      <img src="/images/logo1.png" alt="" width="100"  style="object-fit: contain;margin-left: 1%;">
       <v-toolbar-title  @click="navigateTo('')" class="toolbar-title">
     
         <h5 >SMART RAILWAY SIDING</h5>
@@ -81,13 +81,13 @@
   display: block;
   width: 100%;
   height: 7px; /* Adjust the height as needed */
-  background-color: green;
+  background-color: #08b748;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .active-button-text {
-  color: green !important;
+  color: #08b748 !important;
 }
 </style>

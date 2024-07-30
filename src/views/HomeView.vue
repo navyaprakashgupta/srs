@@ -3,13 +3,12 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-img :height="650" cover contain src="images/home.jpg" >
-           <div class="overlay"></div>
+          <v-img  class="banner" >
             <v-row class="fill-height" justify="center">
               <v-col cols="12" class="content">
-                <h1 class="display-1">REVOLUTIONIZE YOUR</h1>
-                <h1 class="display-2">RAILWAY OPERATIONS</h1>
-                <h2 class="display-3">ONE SOLUTION, INFINITE POSSIBILITIES</h2>
+                <h1 class="display-1"></h1>
+                <h1 class="display-2"></h1>
+                <h2 class="display-3"></h2>
               </v-col>
               <div
                 style="cursor: pointer"
@@ -22,32 +21,26 @@
       </v-row>
 
       <v-row>
-        <v-col cols="12">
+        <v-col cols="12" md="6">
           <div class="InfoText" ref="InfoText">
             <p class="font-Medium">
               L2M, an IISC start up is determined to change Industrial Railway
-              Siding into Smart
-            </p>
-            <p class="font-Medium">
-              Railway Siding. Seamlessly integrating the digital and physical
-              realms to ensure safe and
-            </p>
-            <p class="font-Medium">efficient transportation networks.</p>
-            <p class="font-Medium">
+              Siding into Smart Railway Siding. Seamlessly integrating the digital and physical
+              realms to ensure safe and efficient transportation networks.
               Smart railway network will provide real-time insights, automate
-              processes, and improve
-            </p>
-            <p class="font-Medium">
-              decision-making, ultimately empowering you to streamline
+              processes, and improve decision-making, ultimately empowering you to streamline
               operations and
-            </p>
-            <p class="font-Medium">maximize productivity.</p>
-            <br>
-            <v-btn color="green" class="text-center" @click="learnMore('about')">LEARN MORE</v-btn>
+            maximize productivity.</p>
           </div>
-          
-          
         </v-col>
+        <v-col cols="12" md="6"><v-img
+            src="images/map.png"
+            alt="Information Image"
+            class="responsive-img"
+          ></v-img> </v-col>
+        <v-btn color="green" class="text-center" @click="learnMore('about')">LEARN MORE</v-btn> 
+        <br>
+        <br>
       </v-row>
     </v-container>
     <v-container>
@@ -171,6 +164,7 @@ export default {
     learnMore(path) {
       // Handle learn more action
       this.$router.push("/" + path);
+      window.scrollTo(0,0);
     },
     goto(refName) {
       var element = this.$refs[refName];
@@ -187,7 +181,19 @@ export default {
   object-fit: contain;
 }
 
+.banner{
+  width: 100%;  /* Ensure it covers the full width of its container */
+  height: 650px; /* Or a specific height as needed */
+  object-fit: cover; /* Makes the image cover the element */
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 768px) {
+  .banner{
+    height: 230px;
+  }
   .responsive-img{
     height: 200px;
   }
@@ -220,6 +226,7 @@ export default {
   font: InterLight !important;
   font-size: 30px;
   margin-left: 90px;
+  padding-bottom: 15%;
 }
 
 .InfoText {
@@ -250,7 +257,7 @@ export default {
   padding-left: 15px;
 }
 hr.solid {
-  border-top: 3px solid darkgreen;
+  border-top: 3px solid #08b748;
   margin-bottom: 30px;
 }
 
