@@ -3,20 +3,15 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-img  class="banner" >
-            <v-row class="fill-height" justify="center">
-              <v-col cols="12" class="content">
-                <h1 class="display-1"></h1>
-                <h1 class="display-2"></h1>
-                <h2 class="display-3"></h2>
-              </v-col>
+          <img  class="banner" src="/images/banner.jpg">
+            <v-row class="fill-height overlay" justify="center" >
               <div
                 style="cursor: pointer"
                 @click="goto('InfoText')"
                 class="triangle triangle-simple"
               ></div>
             </v-row>
-          </v-img>
+          
         </v-col>
       </v-row>
 
@@ -185,7 +180,7 @@ export default {
   width: 100%;  /* Ensure it covers the full width of its container */
   height: 650px; /* Or a specific height as needed */
   object-fit: cover; /* Makes the image cover the element */
-  background-image: url('images/banner.jpg');
+  /* background-image: url('images/banner.jpg'); */
   background-size: cover;
   background-position: center;
 }
@@ -194,9 +189,18 @@ export default {
   .banner{
     height: 230px;
   }
+
+  .overlay{
+    display: none;
+  }
   .responsive-img{
     height: 200px;
   }
+  .card-header{
+    margin-top: 10% !important;
+  margin-bottom: 7% !important;
+  }
+  
 }
 .card-header {
   margin: 2%;
@@ -263,18 +267,10 @@ hr.solid {
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 12%;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
 }
 
-
-.content {
-  position: relative;
-  z-index: 2;
-  color: white;
-  
-}
 </style>
