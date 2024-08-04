@@ -2,46 +2,48 @@
   <v-app>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <img  class="banner" src="/images/banner.jpg">
-            <v-row class="fill-height overlay" justify="center" >
+            <!-- <v-row class="overlay" justify="center" >
               <div
                 style="cursor: pointer"
                 @click="goto('InfoText')"
                 class="triangle triangle-simple"
               ></div>
-            </v-row>
-          
+            </v-row> -->
         </v-col>
-      </v-row>
-
-      <v-row>
         <v-col cols="12" md="6">
           <div class="InfoText" ref="InfoText">
             <p class="font-Medium">
               L2M, an IISC start up is determined to change Industrial Railway
               Siding into Smart Railway Siding. Seamlessly integrating the digital and physical
-              realms to ensure safe and efficient transportation networks.
-              Smart railway network will provide real-time insights, automate
+              realms to ensure safe and efficient transportation networks.</p>
+              <br>
+              <br>
+              <p class="font-Medium">Smart railway network will provide real-time insights, automate
               processes, and improve decision-making, ultimately empowering you to streamline
               operations and
             maximize productivity.</p>
           </div>
         </v-col>
+        <!-- <v-col cols="12" md="1"></v-col> -->
         <v-col cols="12" md="6"><v-img
             src="images/map.png"
             alt="Information Image"
-            class="responsive-img"
+            class="homepage1"
           ></v-img> </v-col>
-        <v-btn color="green" class="text-center" @click="learnMore('about')">LEARN MORE</v-btn> 
+      </v-row>
+
+      <v-row>
+
         <br>
-        <br>
+      
       </v-row>
     </v-container>
     <v-container>
       <v-row>
         <v-col>
-          <h2 class="text-center card-header">FEATURES OF OUR PRODUCT</h2>
+          <h2 class="text-center card-header">KEY BENEFITS</h2>
         </v-col>
       </v-row>
       <v-row>
@@ -181,8 +183,11 @@ export default {
   height: 650px; /* Or a specific height as needed */
   object-fit: cover; /* Makes the image cover the element */
   /* background-image: url('images/banner.jpg'); */
-  background-size: cover;
-  background-position: center;
+}
+
+.homepage1{
+  width: 130%; 
+  height: 500px;
 }
 
 @media (max-width: 768px) {
@@ -190,8 +195,8 @@ export default {
     height: 230px;
   }
 
-  .overlay{
-    display: none;
+  .homepage1{
+    height: 350px;
   }
   .responsive-img{
     height: 200px;
@@ -200,45 +205,27 @@ export default {
     margin-top: 10% !important;
   margin-bottom: 7% !important;
   }
-  
 }
 .card-header {
   margin: 2%;
   background-color: rgb(82, 90, 91);
 }
 
-.display-1 {
-  font: Inter !important;
-  font-size: 70px;
-  margin-top: 140px;
-  margin-left: 90px;
-}
 
-.display-2 {
-  font: Inter;
-  font-size: 70px;
-  margin-left: 90px;
-}
 .text-center {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-
-.display-3 {
-  font: InterLight !important;
-  font-size: 30px;
-  margin-left: 90px;
-  padding-bottom: 15%;
-}
-
 .InfoText {
-  margin: 30px !important;
+  margin: 7% ;
+  padding-top: 6% ;
+
 }
 .font-Medium {
   font-style:InterMedium !important;
-  font-size: 26px;
+  font-size: 23px;
 
 }
 
@@ -257,7 +244,7 @@ export default {
 
 .font-regular {
   font: InterRegular !important;
-  font-size: 28px;
+  font-size: 25px;
   padding-left: 15px;
 }
 hr.solid {
@@ -266,11 +253,10 @@ hr.solid {
 }
 
 .overlay {
-  position: absolute;
-  top: 12%;
+  position: relative;
+  top: -250px;
   left: 0;
-  width: 100%;
-  height: 100%;
+  
 }
 
 </style>

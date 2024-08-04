@@ -93,12 +93,16 @@ footer {
   padding: 0px !important;
 }
 
-
 /* homepage */
 .header2{
   font: InterSemiBold !important;
   font-size: 30px;
   padding: 20px;
+}
+
+.row-reverse{
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
 }
 
 .text-center {
@@ -167,7 +171,6 @@ hr.solid {
     font: InterRegular !important;
     padding-left: 0px;
   }
-
 
 }
 

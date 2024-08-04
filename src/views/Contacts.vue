@@ -1,7 +1,8 @@
 <!-- src/views/ContactView.vue -->
 <template>
-  <v-container>
+  <v-container >
     <Breadcrumbs :items="breadcrumbs" />
+    <div class="container">
     <h1>Contact Us</h1>
     <hr class="solid" />
     <v-row>
@@ -44,6 +45,7 @@
       © Copyright 2022, Lab to Market Innovations Private Limited. All Rights
       Reserved
     </footer>
+    </div>
   </v-container>
 </template>
 
@@ -68,18 +70,17 @@ export default {
       ],
       contacts: [
         {
-          name: "Pradyumna",
-          phone: "9483390634",
-          email: "Bd4@L2mrail.Com",
-          image: "/images/homepage.jpg",
-        },
-        {
           name: "Karamjit Kaur",
           phone: "8284882180",
           email: "cbdo@l2mrail.com",
           image: "/images/contact2.jpg",
         },
-        
+        {
+          name: "Pradyumna",
+          phone: "9483390634",
+          email: "Bd4@L2mrail.Com",
+          image: "/images/homepage.jpg",
+        },
       ],
     };
   },
@@ -115,6 +116,11 @@ export default {
 </script>
 
 <style scoped>
+
+.container{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
 .green-outline {
   border: 3px solid #28a745;
 }
@@ -150,4 +156,6 @@ h3 {
   margin-right: auto;
   display: block;
 }
+
+
 </style>

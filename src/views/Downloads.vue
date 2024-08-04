@@ -2,6 +2,7 @@
 <template>
   <v-container>
     <Breadcrumbs :items="breadcrumbs" />
+    <div class="container">
         <h1>DOWNLOADS</h1>
         <hr class="solid" />
         <v-row>
@@ -29,6 +30,7 @@
         <footer class="footer-style">
           © Copyright 2022, Lab to Market Innovations Private Limited. All Rights Reserved
         </footer>
+        </div>
   </v-container>
 </template>
  

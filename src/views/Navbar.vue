@@ -14,8 +14,8 @@
         <v-btn text @click="navigateTo('features')" :class="{ 'active-button-text': isActiveRoute('features') }">FEATURES</v-btn>
         <v-divider vertical class="vertical-divider"></v-divider>
         <v-btn text @click="navigateTo('downloads')" :class="{ 'active-button-text': isActiveRoute('downloads') }">DOWNLOADS</v-btn>
-        <v-divider vertical class="vertical-divider"></v-divider>
-        <v-btn text @click="navigateTo('about')" :class="{ 'active-button-text': isActiveRoute('about') }">ABOUT</v-btn>
+        <!-- <v-divider vertical class="vertical-divider"></v-divider>
+        <v-btn text @click="navigateTo('about')" :class="{ 'active-button-text': isActiveRoute('about') }">ABOUT</v-btn> -->
         <v-divider vertical class="vertical-divider"></v-divider>
         <v-btn text @click="navigateTo('contacts')" :class="{ 'active-button-text': isActiveRoute('contacts') }">CONTACT</v-btn>
       </v-toolbar-items>
@@ -31,9 +31,9 @@
         <v-list-item @click="drawer = false">
           <v-btn text block @click="navigateTo('downloads')">DOWNLOADS</v-btn>
         </v-list-item>
-        <v-list-item @click="drawer = false">
+        <!-- <v-list-item @click="drawer = false">
           <v-btn text block @click="navigateTo('about')">ABOUT</v-btn>
-        </v-list-item>
+        </v-list-item> -->
         <v-list-item @click="drawer = false">
           <v-btn text block @click="navigateTo('contacts')">CONTACT</v-btn>
         </v-list-item>

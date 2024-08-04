@@ -1,5 +1,9 @@
 <template>
    <v-container>
+    <Breadcrumbs :items="breadcrumbs" />
+    <div class="container">
+      <h1 >FEATURES</h1>
+      <hr class="solid" />
       <v-row>
         <v-col cols="12" md="6">
           <div >
@@ -128,7 +132,7 @@
           <div >
             <h2 class="header2">Monitoring the Load of each Wagon and Wheel health</h2>
             <hr class="solid">
-            <p class="description"></p>
+            <p class="description">Monitors the weight carried by each wagon and the condition of each wheel to identify overloaded wagons and uneven weight distribution within wagons. This helps prevent accidents, improve safety, and optimize cargo transportation.</p>
           </div>
         </v-col>
         <v-col cols="12" md="6">
@@ -222,6 +226,31 @@
         © Copyright 2022, Lab to Market Innovations Private Limited. All Rights
         Reserved
       </footer>
+      </div>
     </v-container>
   
 </template>
+<script>
+  import Breadcrumbs from '../views/Breadcrumbs.vue';
+  
+  export default {
+    name: 'Features',
+    components: {
+      Breadcrumbs,
+    },
+    data() {
+      return {
+        breadcrumbs: [
+          { text: 'Home', to: '/' },
+          { text: 'Features', to: '/features' },
+        ],
+      };
+    },
+  };
+  </script>
+  <style>
+  .container{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+</style>
